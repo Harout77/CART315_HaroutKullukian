@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 706, y: 692}
   m_MaxSize: {x: 18001, y: 18042}
   vertical: 0
-  controlID: 3146
+  controlID: 3703
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 231, y: 692}
   m_MaxSize: {x: 10001, y: 18042}
   vertical: 1
-  controlID: 3147
+  controlID: 3678
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 421}
   m_MaxSize: {x: 4001, y: 8021}
   vertical: 1
-  controlID: 3108
+  controlID: 3679
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -184,8 +184,8 @@ MonoBehaviour:
     y: 0
     width: 1612
     height: 620
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -210,8 +210,8 @@ MonoBehaviour:
     y: 620
     width: 1612
     height: 414
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 7}
   m_Panes:
   - {fileID: 7}
@@ -254,9 +254,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6, y: 0, z: 0}
+    m_Target: {x: -2011.8695, y: -101.794395, z: -497.08722}
     speed: 2
-    m_Value: {x: 6, y: 0, z: 0}
+    m_Value: {x: -2011.8695, y: -101.794395, z: -497.08722}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -306,9 +306,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 3.228608
+    m_Target: 4545.2827
     speed: 2
-    m_Value: 3.228608
+    m_Value: 4545.2827
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -431,14 +431,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\harou\Documents\GitHub\CART315_Harout_Kullukian\Pong
+  m_LastProjectPath: C:\Users\harou\Documents\GitHub\CART315_HaroutKullukian\CART315_HaroutKullukian\Pong
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f8350000
-    m_LastClickedID: 13816
-    m_ExpandedIDs: 00000000f835000000ca9a3b
+    m_SelectedIDs: f6340000
+    m_LastClickedID: 13558
+    m_ExpandedIDs: 00000000f634000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -466,7 +466,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f835000000ca9a3b
+    m_ExpandedIDs: 00000000f634000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -491,9 +491,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 30350000
-    m_LastClickedInstanceID: 13616
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -567,8 +567,8 @@ MonoBehaviour:
     y: 0
     width: 396
     height: 1308
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -605,7 +605,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: aef4ffff
+      m_ExpandedIDs: 40f9ffff7cfaffffa6faffff62fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -621,7 +621,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 12}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -691,5 +691,5 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: 13616
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
