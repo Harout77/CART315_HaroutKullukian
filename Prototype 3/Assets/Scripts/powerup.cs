@@ -5,7 +5,7 @@ using UnityEngine;
 public class powerup : MonoBehaviour
 {
 
-
+    public float multiplier = 0;
 
     public GameObject pickupEffect;
 
@@ -16,7 +16,7 @@ public class powerup : MonoBehaviour
 
 
         {
-            Pickup();
+            Pickup(other);
         }
 
 
@@ -25,12 +25,13 @@ public class powerup : MonoBehaviour
 
 
 
-    void Pickup()
+    void Pickup(Collider player)
 
     {
 
         Instantiate(pickupEffect, transform.position, transform.rotation);
 
+        player.transform.localScale *= multiplier;
 
         Destroy(gameObject);
 

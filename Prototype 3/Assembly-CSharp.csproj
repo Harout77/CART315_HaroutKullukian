@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\playerCollision.cs" />
     <Compile Include="Assets\Scripts\powerup.cs" />
     <Compile Include="Assets\Scripts\score.cs" />
+    <Compile Include="Assets\Scripts\speedchange.cs" />
     <Compile Include="Assets\Scripts\theEnd.cs" />
     <Compile Include="Assets\gameManager.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
