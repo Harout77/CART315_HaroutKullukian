@@ -12,18 +12,16 @@ public class movement : MonoBehaviour
 
     public float forcemovement = 1000f;
     public float sidemovement = 500f;
+    public float jump = 1000f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
+
 
     // Update is called once per frame
     void FixedUpdate()
     {
 
         // Add force to player
-        rb.AddForce(0, 0 , forcemovement * Time.deltaTime);
+        rb.AddForce(0, 0, forcemovement * Time.deltaTime);
 
         // move right
         if (Input.GetKey("d"))
@@ -39,6 +37,18 @@ public class movement : MonoBehaviour
 
         {
             rb.AddForce(-sidemovement * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+
+        }
+
+        //// jump 
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (transform.position.y < 1.05f)
+            {
+                rb.AddForce(Vector3.up * jump);
+
+            }
+
 
         }
 
