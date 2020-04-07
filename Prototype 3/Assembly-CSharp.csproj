@@ -75,10 +75,11 @@
     <Compile Include="Assets\Scripts\playerCollision.cs" />
     <Compile Include="Assets\Scripts\powerup.cs" />
     <Compile Include="Assets\Scripts\score.cs" />
+    <Compile Include="Assets\Scripts\select.cs" />
     <Compile Include="Assets\Scripts\speedchange.cs" />
     <Compile Include="Assets\Scripts\theEnd.cs" />
     <Compile Include="Assets\gameManager.cs" />
-    <Compile Include="Assets\select.cs" />
+    <Compile Include="Assets\music.cs" />
     <None Include="Assets\Free Low Poly Desert Pack\Materials\Shaders\Vertex_Color_Unlit.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
