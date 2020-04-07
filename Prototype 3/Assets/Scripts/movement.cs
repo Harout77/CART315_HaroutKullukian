@@ -41,7 +41,7 @@ public class movement : MonoBehaviour
         }
 
         //// jump 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKey("space"))
         {
             if (transform.position.y < 1.05f)
             {
